@@ -1,0 +1,26 @@
+{
+  "name": "chatroom-server",
+  "version": "1.0.1",
+  "description": "A simple chatroom server",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fangfangfu@github.com/FangfangFu/Chatroom-Server.git"
+  },
+  "keywords": [
+    "chatroom",
+    "server"
+  ],
+  "author": "Fangfang Fu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FangfangFu/Chatroom-Server/issues"
+  },
+  "homepage": "https://github.com/FangfangFu/Chatroom-Server#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

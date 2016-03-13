@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/FangfangFu/Chatroom-Server#readme",
   "dependencies": {
+    "cors": "^2.7.1",
     "express": "^4.13.4"
   }
 }

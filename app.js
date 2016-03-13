@@ -4,6 +4,8 @@ var messages = {};
 var maxMessagePerRoom = 1000;
 var defaultMemberExpiration = 5*60;
 var members = {};
+var cors = require('cors');
+app.use(cors());
  
 app.post('/api/v1/chatroom/:roomName', function(request, response){
     var roomName = request.params.roomName;
